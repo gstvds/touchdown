@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+	// MARK: - Body
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        FooterView()
     }
 }
 
