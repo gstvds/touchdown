@@ -25,6 +25,7 @@
 		414A0E9226E3133E00426D49 /* FeaturedTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414A0E9126E3133E00426D49 /* FeaturedTabView.swift */; };
 		415E2F9026E403150015C8E7 /* CategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415E2F8F26E403150015C8E7 /* CategoryItemView.swift */; };
 		415E2F9226E403D50015C8E7 /* CategoryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415E2F9126E403D50015C8E7 /* CategoryGridView.swift */; };
+		415E2F9426E404B00015C8E7 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415E2F9326E404B00015C8E7 /* SectionView.swift */; };
 		4172F3DC26E31633000028FE /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4172F3DB26E31633000028FE /* CategoryModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,7 @@
 		414A0E9126E3133E00426D49 /* FeaturedTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedTabView.swift; sourceTree = "<group>"; };
 		415E2F8F26E403150015C8E7 /* CategoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemView.swift; sourceTree = "<group>"; };
 		415E2F9126E403D50015C8E7 /* CategoryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGridView.swift; sourceTree = "<group>"; };
+		415E2F9326E404B00015C8E7 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 		4172F3DB26E31633000028FE /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,6 +158,7 @@
 				414A0E9126E3133E00426D49 /* FeaturedTabView.swift */,
 				415E2F8F26E403150015C8E7 /* CategoryItemView.swift */,
 				415E2F9126E403D50015C8E7 /* CategoryGridView.swift */,
+				415E2F9326E404B00015C8E7 /* SectionView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				415E2F9226E403D50015C8E7 /* CategoryGridView.swift in Sources */,
 				4172F3DC26E31633000028FE /* CategoryModel.swift in Sources */,
 				414A0E7D26E30DAB00426D49 /* NavigationBarView.swift in Sources */,
+				415E2F9426E404B00015C8E7 /* SectionView.swift in Sources */,
 				415E2F9026E403150015C8E7 /* CategoryItemView.swift in Sources */,
 				414A0E9226E3133E00426D49 /* FeaturedTabView.swift in Sources */,
 				414A0E8A26E310D700426D49 /* PlayerModel.swift in Sources */,
