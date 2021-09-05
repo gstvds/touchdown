@@ -36,6 +36,7 @@
 		415E2FA426E40B2C0015C8E7 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415E2FA326E40B2C0015C8E7 /* ProductDetailView.swift */; };
 		4172F3DC26E31633000028FE /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4172F3DB26E31633000028FE /* CategoryModel.swift */; };
 		41EE686626E44AA000CA6E48 /* HeaderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE686526E44AA000CA6E48 /* HeaderDetailView.swift */; };
+		41EE686826E44B0C00CA6E48 /* TopPartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE686726E44B0C00CA6E48 /* TopPartDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +71,7 @@
 		415E2FA326E40B2C0015C8E7 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
 		4172F3DB26E31633000028FE /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
 		41EE686526E44AA000CA6E48 /* HeaderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderDetailView.swift; sourceTree = "<group>"; };
+		41EE686726E44B0C00CA6E48 /* TopPartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPartDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +195,7 @@
 			children = (
 				41407B3626E4489900FABE9D /* NavigationBarDetailView.swift */,
 				41EE686526E44AA000CA6E48 /* HeaderDetailView.swift */,
+				41EE686726E44B0C00CA6E48 /* TopPartDetailView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 			files = (
 				414A0E8C26E3110100426D49 /* CodableBundleExtension.swift in Sources */,
 				41EE686626E44AA000CA6E48 /* HeaderDetailView.swift in Sources */,
+				41EE686826E44B0C00CA6E48 /* TopPartDetailView.swift in Sources */,
 				414A0E6526E30BF000426D49 /* ContentView.swift in Sources */,
 				414A0E7F26E30E4A00426D49 /* LogoView.swift in Sources */,
 				414A0E7B26E30C9F00426D49 /* FooterView.swift in Sources */,
