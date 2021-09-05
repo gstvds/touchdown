@@ -39,6 +39,7 @@
 		41EE686826E44B0C00CA6E48 /* TopPartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE686726E44B0C00CA6E48 /* TopPartDetailView.swift */; };
 		41EE686A26E44CAA00CA6E48 /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE686926E44CAA00CA6E48 /* CustomShape.swift */; };
 		41EE686C26E44D9D00CA6E48 /* RatingsSizesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE686B26E44D9D00CA6E48 /* RatingsSizesDetailView.swift */; };
+		41EE686E26E44F2000CA6E48 /* QuantityFavoriteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE686D26E44F2000CA6E48 /* QuantityFavoriteDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +77,7 @@
 		41EE686726E44B0C00CA6E48 /* TopPartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPartDetailView.swift; sourceTree = "<group>"; };
 		41EE686926E44CAA00CA6E48 /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
 		41EE686B26E44D9D00CA6E48 /* RatingsSizesDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsSizesDetailView.swift; sourceTree = "<group>"; };
+		41EE686D26E44F2000CA6E48 /* QuantityFavoriteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantityFavoriteDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +204,7 @@
 				41EE686526E44AA000CA6E48 /* HeaderDetailView.swift */,
 				41EE686726E44B0C00CA6E48 /* TopPartDetailView.swift */,
 				41EE686B26E44D9D00CA6E48 /* RatingsSizesDetailView.swift */,
+				41EE686D26E44F2000CA6E48 /* QuantityFavoriteDetailView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 				41EE686626E44AA000CA6E48 /* HeaderDetailView.swift in Sources */,
 				41EE686826E44B0C00CA6E48 /* TopPartDetailView.swift in Sources */,
 				414A0E6526E30BF000426D49 /* ContentView.swift in Sources */,
+				41EE686E26E44F2000CA6E48 /* QuantityFavoriteDetailView.swift in Sources */,
 				414A0E7F26E30E4A00426D49 /* LogoView.swift in Sources */,
 				414A0E7B26E30C9F00426D49 /* FooterView.swift in Sources */,
 				414A0E9026E312CB00426D49 /* FeaturedItemView.swift in Sources */,

@@ -23,6 +23,9 @@ struct ProductDetailView: View {
 					.zIndex(1)
 				
 				VStack(alignment: .center, spacing: 0) {
+					RatingsSizesDetailView()
+						.padding(.top, -25)
+						.padding(.bottom, 10)
 					
 					ScrollView(.vertical, showsIndicators: false) {
 						Text(sampleProduct.description)
@@ -30,6 +33,9 @@ struct ProductDetailView: View {
 							.foregroundColor(.gray)
 							.multilineTextAlignment(.leading)
 					} //: ScrollView
+					
+					QuantityFavoriteDetailView()
+						.padding(.vertical, 10)
 					
 					Spacer()
 				} //: VStack
