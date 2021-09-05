@@ -18,7 +18,8 @@ struct ProductDetailView: View {
 				HeaderDetailView()
 					.padding(.horizontal)
 				
-				Text(sampleProduct.name)
+				TopPartDetailView()
+					.padding(.horizontal)
 				
 				Spacer()
 			}) //: VStack
