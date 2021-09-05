@@ -15,7 +15,7 @@ struct NavigationBarDetailView: View {
 					Image(systemName: "chevron.left")
 						.font(.title)
 						.foregroundColor(.white)
-				})
+				}) //: Button
 				
 				Spacer()
 				
@@ -23,7 +23,7 @@ struct NavigationBarDetailView: View {
 					Image(systemName: "cart")
 						.font(.title)
 						.foregroundColor(.white)
-				})
+				}) //: Button
 			} //: HStack
     }
 }

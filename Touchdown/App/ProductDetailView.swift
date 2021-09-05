@@ -20,7 +20,7 @@ struct ProductDetailView: View {
 				Spacer()
 			}) //: VStack
 			.ignoresSafeArea(.all, edges: .all)
-			background(
+			.background(
 				Color(
 					red: sampleProduct.red,
 					green: sampleProduct.green,
