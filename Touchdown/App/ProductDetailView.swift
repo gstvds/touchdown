@@ -15,6 +15,9 @@ struct ProductDetailView: View {
 					.padding(.horizontal)
 					.padding(.top, UIApplication.shared.windows.first?.safeAreaInsets.top)
 				
+				HeaderDetailView()
+					.padding(.horizontal)
+				
 				Text(sampleProduct.name)
 				
 				Spacer()
