@@ -10,7 +10,7 @@ import SwiftUI
 struct ProductDetailView: View {
 	// MARK: - Body
     var body: some View {
-			VStack(alignment: .leading, spacing: 5, content: {
+			VStack(alignment: .leading, spacing: 5) {
 				NavigationBarDetailView()
 					.padding(.horizontal)
 					.padding(.top, UIApplication.shared.windows.first?.safeAreaInsets.top)
@@ -20,9 +20,28 @@ struct ProductDetailView: View {
 				
 				TopPartDetailView()
 					.padding(.horizontal)
+					.zIndex(1)
 				
-				Spacer()
-			}) //: VStack
+				VStack(alignment: .center, spacing: 0) {
+					
+					ScrollView(.vertical, showsIndicators: false) {
+						Text(sampleProduct.description)
+							.font(.system(.body, design: .rounded))
+							.foregroundColor(.gray)
+							.multilineTextAlignment(.leading)
+					} //: ScrollView
+					
+					Spacer()
+				} //: VStack
+				.padding(.horizontal)
+				.background(
+					Color.white
+						.clipShape(CustomShape())
+						.padding(.top, -105)
+				) //: background
+
+			} //: VStack
+			.zIndex(0)
 			.ignoresSafeArea(.all, edges: .all)
 			.background(
 				Color(
