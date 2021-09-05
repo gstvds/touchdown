@@ -24,3 +24,6 @@ let rowSpacing: CGFloat = 10
 var gridLayout: Array<GridItem> {
 	return Array(repeating: GridItem(.flexible(), spacing: rowSpacing), count: 2)
 }
+
+// MARK: - UX
+let feedback = UIImpactFeedbackGenerator(style: .medium)
